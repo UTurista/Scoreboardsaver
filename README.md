@@ -2,7 +2,7 @@
 
 Battelfield 2 module to record the scoreboard at the end of the round. Usefull to see past the hardcoded 20 players in the final ingame scoreboard.
 
-At the end of each round, a file will be created with named `<mapName>_<day>_<hour>_<minute>.log` and with a JSON structured content.
+At the end of each round, a file named `<mapName>_<day>_<hour>_<minute>.log` will be created with a JSON structured content.
 
 
 ##Usage
@@ -16,7 +16,7 @@ scoreboardsaver.init()
 in the same folder `<mod>\python\game\` add the file [scoreboardsaver.py](https://github.com/Vascko/Scoreboardsaver/blob/master/scoreboardsaver.py) 
 
 ##Configuration
-`record_folder` -  Will change where the information is saved
+`record_folder` -  Will change the folder where the information is saved, default is `logs`
 ###Available stats
 * deaths
 * kills
