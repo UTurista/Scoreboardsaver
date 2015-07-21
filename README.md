@@ -8,7 +8,7 @@ At the end of each round, a file will be created with named `<mapName>_<day>_<ho
 ##Usage
 In the file:
 `<mod>\python\game\__init__.py`
-where _<mod>_ is the modification in use (eg:  _pr_ or _bf2_), add the following: 
+where `<mod>` is the modification in use (eg:  _pr_ or _bf2_), add the following: 
 ```python
 import scoreboardsaver
 scoreboardsaver.init()
